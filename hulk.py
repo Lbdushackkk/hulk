@@ -1,11 +1,11 @@
 # ----------------------------------------------------------------------------------------------
-# HULK - HTTP Unbearable Load King
+# LB ATTACK - HTTP Unbearable Load King
 #
 # this tool is a dos tool that is meant to put heavy load on HTTP servers in order to bring them
 # to their knees by exhausting the resource pool, its is meant for research purposes only
 # and any malicious usage of this tool is prohibited.
 #
-# author :  Barry Shteiman , version 1.0
+# author :  LB DUS HACKKK , version 1.0
 # ----------------------------------------------------------------------------------------------
 import urllib2
 import sys
@@ -139,7 +139,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "-- HULK Attack Started --"
+		print "-- LB Attack Começou --"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
